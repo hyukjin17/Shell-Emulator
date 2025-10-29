@@ -1,0 +1,17 @@
+ls
+pwd
+cd /tmp
+pwd
+echo Hello World
+
+echo "Test file" > test.txt
+cat < test.txt
+
+ls | wc -l
+cat /etc/passwd | grep root | sort | uniq
+
+cat /etc/passwd | grep bash > bash_users.txt
+wc -l < bash_users.txt
+
+ls /not/a/real/path
+echo $?
