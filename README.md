@@ -66,3 +66,12 @@ make
 ```bash
 make clean
 ```
+
+## Current Limitations / Future Improvements
+| Command | Description |
+|----------|-------------|
+| Background jobs (&) | Allow commands to run asynchronously in the background |
+| Command history | Support !!, !n, and arrow-key navigation |
+| Environment variables | Expand $PATH, $HOME, etc., and support export |
+| Append redirection (>>) | Add output appending functionality |
+| Logical operators (&&/||) | Allow sequential and conditional command execution |
