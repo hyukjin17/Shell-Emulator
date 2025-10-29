@@ -74,4 +74,4 @@ make clean
 | Command history | Support !!, !n, and arrow-key navigation |
 | Environment variables | Expand $PATH, $HOME, etc., and support export |
 | Append redirection (>>) | Add output appending functionality |
-| Logical operators (&&/||) | Allow sequential and conditional command execution |
+| Logical operators | Allow sequential and conditional command execution |
